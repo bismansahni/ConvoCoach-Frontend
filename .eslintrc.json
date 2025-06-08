@@ -1,0 +1,12 @@
+{
+  "extends": ["next/core-web-vitals", "plugin:@typescript-eslint/recommended"],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "eslint-comments"],
+  "rules": {
+    "eslint-comments/no-unlimited-disable": "warn",
+    "no-unused-vars": "warn",
+    "no-console": "warn",
+    "@typescript-eslint/no-unused-vars": ["warn"],
+    "@typescript-eslint/no-explicit-any": ["warn"]
+  }
+}
